@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    background-color: #29176f;
+    background-color: #21164b;
 }
 #page-header img{
     width: 8%;
@@ -28,54 +28,105 @@ body{
     align-items: center;
 }
 #form-title{
-    /* position: absolute; */
-    width: 671px;
-    height: 30px;
-    left: 120px;
-    top: 129px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
     font-size: 30px;
     line-height: 42px;
     text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
     color: #4DFFEA;
 }
 .important-data{   
-    
-    /* width: 181px;
-    height: 30px; */
     font-family: 'Roboto';
     font-weight: 800;
     font-size: 1.5rem;
-    /* line-height: 28px; */
-    text-align: center;
+    text-align: left;
     color: #FA58B6;
-    /* float: left; */
+}
+#first-section{
+    display: flex;
+    float: left;
+    margin-left: 10%;
 }
 #personal-data{
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    /* width: 40%; */
-    /* height: 30%; */
+    padding-bottom: 5%;
 }
-/* #personal-adress{
-    position: absolute;
-    width: 112px;
-    height: 29px;
-    left: 151px;
-    top: 432px;
-
+ #personal-adress{
+    display: flex;
+    float: left;
 }
 #mode{
-    position: absolute;
-    width: 137px;
-    height: 30px;
-    left: 151px;
-    top: 600px;
-} */
-.personal-data{
-    margin-top: 2rem;
-    height: 2rem;
+    padding-bottom: 5%;
+    display: flex;
+    float: left;
+} 
+
+.group-of-elements{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    }
+.description{
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+    color: #FFFFFF;
+}
+#campo-nome{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:300px;
+    height: 2em;
+    padding-left: 5px;
+}
+#campo-idade{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:42px;
+    height: 2em;
+}
+#campo-cpf{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:30%;
+    height: 2em;
+}
+.espaco-entre-campos{
+    margin-top: 20px;
+}
+.fontes-genero{
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#informacoes-sobre-genero{
+    margin-left: 2%;
+}
+.borda-cor-de-campo{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 200px;
+    width:29%;
+    height: 2em;
+    padding-left: 2%;
+}
+#image-ilustration img{
+    width: 35%;
+    float: right;
+    margin-right: 4%;
+}
+.campo-email{
+    width: 45%;
+}
+#campo-rua{
+    width: 40%;
+}
+#campos-proximos{
+    display: flex;
+    flex-direction: row;
 }

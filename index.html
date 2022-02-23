@@ -20,10 +20,49 @@
         <h2 id="form-title">Cadastre-se e garanta a sua vaga:</h2>
         <section id="first-section">
             <form action="#">
-                <legend class="important-data" id="personal-data">Dados Pessoais:</legend>
-                <legend class="important-data" id="personal-adress">Edereço:</legend>
-                <legend class="important-data" id="mode">Modalidade:</legend>
+                <fieldset class="group-of-elements">
+                    <legend class="important-data" id="personal-data">Dados Pessoais:</legend>
+                    <div class="campos-proximos">
+                        <label class="description" for="name">Nome:</label>
+                        <input type="text" maxlength="40" id="campo-nome">
+                        <label  class="description" for="age">Idade:</label>
+                        <input type="number" maxlength="3" id="campo-idade">
+                    </div>
+                    <br>
+                    <div class="espaco-entre-campos">
+                        <label class="description" for="cpf">CPF:</label>
+                        <input type="number" maxlength="11" id="campo-cpf">
+                        <span id="informacoes-sobre-genero">
+                            <label for="gênero" class="description">Gênero:</label>
+                            <input type="radio" name="sex" value="male" class="radio-genero"> 
+                            <span class="fontes-genero">Masculino</span>
+                            <input type="radio" name="sex" value="female" class="radio-genero"> 
+                            <span class="fontes-genero">Feminino</span>
+                        </span>
+                    </div>
+                    <div class="espaco-entre-campos">
+                        <label for="telephone" class="description">Celular:</label>
+                        <input type="number" class="borda-cor-de-campo">
+                        <span class="fontes-genero">
+                            <label for="email" class="description">E-mail:</label>
+                            <input type="email" class="borda-cor-de-campo" id="campo-email">
+                        </span>
+                    </div>
+                </fieldset>
+                <fieldset class="group-of-elements">
+                    <legend class="important-data" id="personal-adress">Edereço:</legend> <br>
+                        <div class="campos-proximos">
+                            <label for="street" class="description">Rua:</label>
+                            <input type="text" class="borda-cor-de-campo" id="campo-rua">  
+                        </div>
+                </fieldset>    
+                <fieldset class="group-of-elements">
+                    <legend class="important-data" id="mode">Modalidade:</legend>
+                </fieldset>
             </form>
+        </section>
+        <section id="image-ilustration">
+            <img src="./images/undraw_about_me_re_82bv.svg" alt="ilustração de pessoa preenchendo cadastro">
         </section>
     </main>
 </body>
