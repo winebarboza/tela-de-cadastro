@@ -20,4 +20,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Google Fonts](https://fonts.google.com/)
 
 ## ⏰Status
--Fase final(revisão de código e melhorias)
+
+-Fase final (revisão de código e melhorias)
+
